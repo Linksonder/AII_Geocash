@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/map.png', (req, res) => {
-    res.sendFile(__dirname + '/map.png');
+    res.sendFile(__dirname + '/map.PNG');
   });
 
 io.on('connection', (socket) => {
